@@ -9,8 +9,25 @@
   </head>
   <body>
         <nav class="navbar-light bg-white">
-            <div class="container pt-1">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <div class="container pt-1 pb-1">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" 
+                data-bg-toggler="collapse" 
+                data-bs-target="#navbarNav" 
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                </svg>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item d-block d-md-none d-lg-none">
+                    <a href="#" type="button" class="btn btn-orange w-100 rounded">Login</a>
+                  </li>
+                </ul>
+              </div>
             </div>
         </nav>
     
